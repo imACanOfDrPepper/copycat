@@ -3,7 +3,7 @@
 # Intro
 
 COPYCAT is a OISC esolang.
-It uses a virtual computer with little-endian von Neumann architecture, 4 [reserved addresses](<#Reserved Addresses and Memory Mapping>) and a 16-bit address space. (`0x0000` to `0xFFFF`)
+It uses a virtual computer with little-endian von Neumann architecture, 4 reserved addresses and a 16-bit address space. (`0x0000` to `0xFFFF`)
 
 The only instruction you have is a COPY (hence the name): copy the value stored in one address to another address, overwriting it. For example, to copy the value stored in address `0x1234` to address `0x5678`: `34 12 78 56`
 Because it is a OISC, specifying the opcode isn’t supported because it’s not needed.
