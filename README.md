@@ -1,0 +1,2 @@
+# copycat
+A OISC esolang
