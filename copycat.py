@@ -35,7 +35,9 @@ while True:
     next_pc_lo = next_pc & 0xFF
     next_pc_hi = next_pc >> 8
 
-    if pc > 65532: break
+    if pc > 65532:
+        source = bytes_to_int(code[pc%65536], code[(pc+1)%65536])
+        dest = bytes_to_int(code[(pc+2)%65536], code[(pc+3)%65536])
 
     if source == 2:
         user_input = input()
