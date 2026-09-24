@@ -16,7 +16,7 @@ Additionally, COPYCAT code is allowed to modify itself.
 - `0x0002` - The I/O byte. Reading this will instead use the ASCII value of a single byte taken from stdin, while writing to this will output the character with the ASCII value corresponding to the byte value written, to stdout.
 - `0x0003` - The halt byte. Writing to this will immediately halt execution of the program with the byte value written being used as the exit code.
 
-**The code is stored in memory** starts at address `0x0004`.
+**The code stored in memory** starts at address `0x0004`.
 Additionally, all reserved addresses other than the program counter remain `0x00`, even when written to.
 # Example Programs
 
