@@ -47,3 +47,7 @@ FE FF 02 00
 FE FF 0B 00
 FF FD 00 00
 ```
+
+# Esolangs Wiki Page
+
+This esolang has an `esolangs.org` page. [Here it is!](https://esolangs.org/wiki/COPYCAT)
